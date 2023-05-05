@@ -1,0 +1,43 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    padding: 200px;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+input {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 8px;
+}
+.for-monkey {
+    background-image: url(icons8-see-no-evil-monkey-48.png);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+.for-red-monkey {
+    display: flex;
+    background-image: url(icons8-hear-no-evil-monkey-48.png);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60%;
+    cursor: pointer;
+}
